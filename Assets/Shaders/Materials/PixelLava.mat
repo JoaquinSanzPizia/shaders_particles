@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3551276008475122588
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PixelLava
+  m_Shader: {fileID: -6465566751694194690, guid: dd0526426cc80304ba021dd587f52a16,
+    type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _GatherTexture2D_5fc9e82d067f4e6b9782e53a6c375a03_Texture_1:
+        m_Texture: {fileID: 2800000, guid: dde0024f6a9a6c648a985b9e7f89f7d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalFromTexture_ad9b50e4a5b64f3eb34d2dfc9ac4857f_Texture_0:
+        m_Texture: {fileID: 2800000, guid: dde0024f6a9a6c648a985b9e7f89f7d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_50d804b748be47cca8afba4abddbc79b_Texture_1:
+        m_Texture: {fileID: 2800000, guid: dde0024f6a9a6c648a985b9e7f89f7d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Speed: 0.1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 0.8235295, b: 0, a: 1}
+    - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _SecondaryColor: {r: 1, g: 0.009791811, b: 0, a: 1}
+    - _Tiling: {r: 2, g: 2, b: 0, a: 0}
+  m_BuildTextureStacks: []
